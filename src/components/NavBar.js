@@ -15,10 +15,13 @@ function NavBar(props) {
     <header>
       <div className="overlay"></div>
       <nav>
-        <h2>FAKE GUCCI STORE</h2>
+        {/* <h2>FAKE GUCCI STORE</h2> */}
         <ul>
           <li className="nav-home">
-            <Link to="/">Home</Link>
+            <Link to="/">Clothing</Link>
+          </li>
+          <li className="nav-home">
+            <Link to="/purses">Purses</Link>
           </li>
           <li className="nav-about">
             <Link to="/about">About</Link>

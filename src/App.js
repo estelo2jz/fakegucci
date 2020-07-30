@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
+import Purses from './components/Purses';
 import Cart from './components/Cart';
 import { Provider } from 'react-redux';
 import store from './store';
@@ -15,6 +16,7 @@ function App() {
           <NavBar />
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route exact path="/purses" component={Purses} />
             <Route path="/cart" component={Cart} />
           </Switch>
         </Router>

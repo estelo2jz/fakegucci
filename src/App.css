@@ -7,7 +7,7 @@
   font-family: 'Poppins', sans-serif;
 }
 header {
-  background-image: url('./images/bg6.png');
+  background-image: url('./images/bg7.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -92,6 +92,7 @@ li a {
   flex-wrap: wrap;
   margin-top: 50px;
   padding-bottom: 100px;
+  grid-row-gap: 20px;
 
 }
 
