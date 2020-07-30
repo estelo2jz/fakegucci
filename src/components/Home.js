@@ -31,73 +31,73 @@ const Home = (props) => {
       <div className="image">
         <img src={One} alt="Original Gucci" />
         <h3>Fake Original Gucci</h3>
-        <h3>$15,000</h3>
+        <h3>$12,00</h3>
         <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>
       <div className="image">
         <img src={Two} alt="Gucci disk" />
         <h3>Fake Gucci Disk</h3>
-        <h3>$20,000</h3>
+        <h3>$17,00</h3>
         <a onClick={() => props.addBasket('GucciDisk')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>
       <div className="image">
         <img src={Three} alt="Gucci pineapple" />
         <h3>Fake Gucci Pineapple</h3>
-        <h3>$25,000</h3>
+        <h3>$15,00</h3>
         <a onClick={() => props.addBasket('Guccipineapple')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>
       <div className="image">
         <img src={Four} alt="Gucci Sexiness" />
         <h3>Fake Gucci Sexiness</h3>
-        <h3>$30,000</h3>
+        <h3>$22,00</h3>
         <a onClick={() => props.addBasket('GucciSexiness')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>
       <div className="image">
         <img src={Fift} alt="logo polka dot print" />
         <h3>Fake Gucci Polka Dot White</h3>
-        <h3>$35,000</h3>
+        <h3>$23,00</h3>
         <a onClick={() => props.addBasket('PolkaDotWhite')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>
       <div className="image">
         <img src={Sixth} alt="logo polka dot print" />
         <h3>Fake Gucci Polka Dot Black</h3>
-        <h3>$40,000</h3>
+        <h3>$17,00</h3>
         <a onClick={() => props.addBasket('PolkaDotBlack')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>
       <div className="image">
         <img src={Seven} alt="glitter print" />
         <h3>Fake Gucci Glitter T-shirt</h3>
-        <h3>$45,000</h3>
+        <h3>$11,00</h3>
         <a onClick={() => props.addBasket('GlitterPrint')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>
       <div className="image">
         <img src={Eight} alt="T-shirt with GG apple" />
         <h3>Fake Gucci GG Apple T-shirt</h3>
-        <h3>$50,000</h3>
+        <h3>$10,00</h3>
         <a onClick={() => props.addBasket('WithApple')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>
       <div className="image">
         <img src={Bik1} alt="Sparkling swimsuit" />
         <h3>Fake Gucci Sparkling Red Swimsuit</h3>
-        <h3>$55,000</h3>
+        <h3>$21,00</h3>
         <a onClick={() => props.addBasket('RedSwimsuit')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>
       <div className="image">
         <img src={Bik2} alt="Sparkling swimsuit with Gucci logo" />
         <h3>Fake Gucci Sparkling Black Swimsuit</h3>
-        <h3>$60,000</h3>
+        <h3>$23,00</h3>
         <a onClick={() => props.addBasket('BlackSwimsuit')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>
       <div className="image">
         <img src={Bik3} alt="Stretch fabric swimsuit with Gucci" />
         <h3>Fake Gucci Stretch  Gold Swimsuit</h3>
-        <h3>$65,000</h3>
+        <h3>$29,00</h3>
         <a onClick={() => props.addBasket('GoldSwimsuit')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>
       <div className="image">
         <img src={Bik4} alt="Disney x Gucci swimsuit" />
         <h3>Fake Gucci Disney x Gucci Swimsuit</h3>
-        <h3>$70,000</h3>
+        <h3>$28,00</h3>
         <a onClick={() => props.addBasket('WhiteSwimsuit')} className="addToCart cart1" href="#">Add to Cart</a>
         {/* <a onClick={props.removeBasket} >Remove Item</a> */}
       </div>

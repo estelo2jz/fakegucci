@@ -61,7 +61,14 @@ function Cart({basketProps}) {
         <h5 className="price sm-hide">PRICE</h5>
         <h5 className="quantity">QUANTITY</h5>
         <h5 className="total">TOTAL</h5>
-      </div>      
+      </div> 
+      <div className="products">
+        {productsInCart}
+      </div>
+      <div className="basketTotalContainer">
+        <h4 className="basketTotalTitle">{basketProps.name}</h4>
+        <h4 className="basketTotal">${basketProps.cartCost},00</h4>
+      </div>
     </div>
   )
 }
