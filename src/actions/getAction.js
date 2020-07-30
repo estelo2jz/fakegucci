@@ -5,6 +5,6 @@ export const getNumbers = () => {
     console.log("Getting all Basket Numbers!");
     dispatch({
       type: GET_NUMBERS_BASKET
-    })
+    });
   }
 }

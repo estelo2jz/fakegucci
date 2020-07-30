@@ -17,6 +17,7 @@ import Bik4 from '../images/bik4.jpg'
 
 const Home = (props) => {
   console.log(props);
+  
   //  PASS the state inside of home component, but impossible to the NavBar component
   // const [basketNumbers, setBasketNumbers] = useState(0);
 

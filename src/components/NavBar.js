@@ -8,16 +8,17 @@ function NavBar(props) {
   useEffect(() => {
     getNumbers();
   }, []);
+  
   return (
     <header>
       <div className="overlay"></div>
       <nav>
         <h2>FAKE GUCCI STORE</h2>
         <ul>
-          <li>
+          <li className="nav-home">
             <a href="#">Home</a>
           </li>
-          <li>
+          <li className="nav-about">
             <a href="#">About</a>
           </li>
           <li className="cart">
