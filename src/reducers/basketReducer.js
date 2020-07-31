@@ -115,9 +115,6 @@ const initialState = {
       numbers: 0,
       inCart: false
     },
-
-
-
     PurseBlackGold: {
       name: "Fake Gucci Black Gold",
       price: 1111,
