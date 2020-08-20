@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { connect } from 'react-redux';
 import { addBasket } from '../actions/addAction';
-import { removeBasket } from '../actions/removeAction';
 
 import Purse1 from '../images/purse/one.jpg';
 import Purse2 from '../images/purse/two.jpg';
@@ -105,4 +104,4 @@ const Purses = (props) => {
   );
 }
 
-export default connect(null, { addBasket, removeBasket })(Purses);
+export default connect(null, { addBasket })(Purses);

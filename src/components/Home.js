@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { connect } from 'react-redux';
 import { addBasket } from '../actions/addAction';
-import { removeBasket } from '../actions/removeAction';
 
 import One from '../images/one.jpg'
 import Two from '../images/two.jpg'
@@ -53,13 +52,13 @@ const Home = (props) => {
         <a onClick={() => props.addBasket('GucciSexiness')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>
       <div className="image">
-        <img src={Fift} alt="logo polka dot print" />
+        <img src={Sixth} alt="logo polka dot print" />
         <h3>Fake Gucci Polka Dot White</h3>
         <h3>$190,00</h3>
         <a onClick={() => props.addBasket('PolkaDotWhite')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>
       <div className="image">
-        <img src={Sixth} alt="logo polka dot print" />
+        <img src={Fift} alt="logo polka dot print" />
         <h3>Fake Gucci Polka Dot Black</h3>
         <h3>$217,00</h3>
         <a onClick={() => props.addBasket('PolkaDotBlack')} className="addToCart cart1" href="#">Add to Cart</a>
@@ -105,4 +104,4 @@ const Home = (props) => {
   );
 }
 
-export default connect(null, { addBasket, removeBasket })(Home);
+export default connect(null, { addBasket })(Home);
