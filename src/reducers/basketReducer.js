@@ -99,84 +99,84 @@ const initialState = {
     PurseSnake: {
       name: "Fake Gucci Snake",
       tagName: 'gucciSnake',
-      price: 1124,
+      price: 1124.00,
       numbers: 0,
       inCart: false
     },
     PurseGreen: {
       name: "Fake Gucci LightGreen",
       tagName: 'gucciLightGreen',
-      price: 1217,
+      price: 1217.00,
       numbers: 0,
       inCart: false
     },
     PurseWhiteSnake: {
       name: "Fake Gucci White Snake",
       tagName: 'gucciWhiteSnake',
-      price: 1315,
+      price: 1315.00,
       numbers: 0,
       inCart: false
     },
     PurseBrown: {
       name: "Fake Gucci Brown",
       tagName: 'gucciBrown',
-      price: 1222,
+      price: 1222.00,
       numbers: 0,
       inCart: false
     },
     PurseWhiteGold: {
       name: "Fake Gucci White Gold",
       tagName: 'gucciWhiteGold',
-      price: 1190,
+      price: 1190.00,
       numbers: 0,
       inCart: false
     },
     PurseRedGold: {
       name: "Fake Gucci Red Gold",
       tagName: 'gucciRedGold',
-      price: 1217,
+      price: 1217.00,
       numbers: 0,
       inCart: false
     },
     PurseBlackGold: {
       name: "Fake Gucci Black Gold",
       tagName: 'gucciBlackGold',
-      price: 1111,
+      price: 1111.00,
       numbers: 0,
       inCart: false
     },
     PurseDotRed: {
       name: "Fake Gucci Polka Dot Red",
       tagName: 'gucciPolkaDotRed',
-      price: 1310,
+      price: 1310.00,
       numbers: 0,
       inCart: false
     },
     PurseBlackLogo: {
       name: "Fake Gucci Black Logo",
       tagName: 'gucciBlackLOgo',
-      price: 1221,
+      price: 1221.00,
       numbers: 0,
       inCart: false
     },
     PurseBrownLogo: {
       name: "Fake Gucci Brown Logo",
       tagName: 'gucciBrownLogo',
-      price: 1223,
+      price: 1223.00,
       numbers: 0,
       inCart: false
     },
     PursePink: {
       name: "Fake Gucci Pink",
       tagName: 'gucciPink',
-      price: 1329,
+      price: 1329.00,
       numbers: 0,
       inCart: false
     },
     PurseGoldRed: {
       name: "Fake Gucci Gold Red",
       tagName: 'gucciGoldRed',
-      price: 1228,
+      price: 1228.00,
       numbers: 0,
       inCart: false
     },
@@ -216,8 +216,8 @@ export default (state = initialState, action) => {
               products: {
                 ...state.products,
                 [action.payload]: productSelected
+              }
             }
-        }
       default:
           return state;
   }
